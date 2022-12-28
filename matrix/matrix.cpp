@@ -57,11 +57,11 @@ int main() {
             });
         }
     }
-    cout << "12312321";
+//    cout << "12312321";
     for (int i = 0; i < thr.size(); i++) {
         thr[i].join();
     }
-    cout << "finalmatrix";
+    cout << "finalmatrix is:";
     for (int i = 0; i < finalmat.size(); i++) {
         for (int j = 0; j < finalmat[i].size(); j++) {
             cout << finalmat[i][j] << " ";
